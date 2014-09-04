@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">杭州公共自行车</string>
+    <string name="dummy_button">实时查询</string>
+    <string name="dummy_content">杭州\n公共自行车</string>
+    <string name="title_activity_travesal">遍历查询</string>
+
+</resources>
