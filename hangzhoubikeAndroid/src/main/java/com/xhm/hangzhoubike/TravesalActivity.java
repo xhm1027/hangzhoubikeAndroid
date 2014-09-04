@@ -1,8 +1,11 @@
 package com.xhm.hangzhoubike;
 
 import android.content.Context;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.*;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
@@ -14,6 +17,9 @@ import com.xhm.hangzhoubike.util.SystemUiHider;
 
 import android.app.Activity;
 import android.view.View;
+import com.xhm.hangzhoubike.view.SwipeMenu;
+import com.xhm.hangzhoubike.view.SwipeMenuCreator;
+import com.xhm.hangzhoubike.view.SwipeMenuItem;
 import com.xhm.hangzhoubike.view.XListView;
 
 import java.util.ArrayList;
@@ -50,8 +56,43 @@ public class TravesalActivity extends Activity implements XListView.IXListViewLi
         stationListView.setAdapter(itemAdapter);//为ListView控件绑定适配器
         stationListView.setPullLoadEnable(true);
         stationListView.setXListViewListener(this);
+        
+        
+        //----------------------------------
+        SwipeMenuCreator creator = new SwipeMenuCreator() {
+
+            @Override
+            public void create(SwipeMenu menu) {
+                // create "open" item
+                SwipeMenuItem openItem = new SwipeMenuItem(
+                        getApplicationContext());
+                // set item background
+                openItem.setBackground(new ColorDrawable(Color.rgb(0xC9, 0xC9,
+                        0xCE)));
+                // set item width
+                openItem.setWidth(dp2px(90));
+                // set item title
+                openItem.setTitle("趋势");
+                // set item title fontsize
+                openItem.setTitleSize(18);
+                // set item title font color
+                openItem.setTitleColor(Color.WHITE);
+                // add to menu
+                menu.addMenuItem(openItem);
+            }
+        };
+        // set creator
+        stationListView.setMenuCreator(creator);
+        
+        
+        
         AnsyQueryStationTask anys = new AnsyQueryStationTask(client);
         anys.execute(page);
+    }
+
+    private int dp2px(int dp) {
+        return (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, dp,
+                getResources().getDisplayMetrics());
     }
 
     @Override
