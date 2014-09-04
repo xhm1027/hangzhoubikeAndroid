@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.alibaba.cloudpush:openapi-model:1.0.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloudpush/openapi-model/1.0.0-SNAPSHOT/openapi-model-1.0.0-20140819.071047-38.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloudpush/openapi-model/1.0.0-SNAPSHOT/openapi-model-1.0.0-20140819.071047-38-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/alibaba/cloudpush/openapi-model/1.0.0-SNAPSHOT/openapi-model-1.0.0-20140819.071047-38-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

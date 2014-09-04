@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../alipush/cpush-java-sdk/cpush-client.iml" filepath="$PROJECT_DIR$/../../alipush/cpush-java-sdk/cpush-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hangzhoubikeAndroid.iml" filepath="$PROJECT_DIR$/hangzhoubikeAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hangzhoubikeAndroid/hangzhoubikeAndroid-hangzhoubikeAndroid.iml" filepath="$PROJECT_DIR$/hangzhoubikeAndroid/hangzhoubikeAndroid-hangzhoubikeAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/openapi.iml" filepath="$PROJECT_DIR$/../hangzhoubike/openapi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/api/openapi-api.iml" filepath="$PROJECT_DIR$/../hangzhoubike/api/openapi-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/api-impl/openapi-api-impl.iml" filepath="$PROJECT_DIR$/../hangzhoubike/api-impl/openapi-api-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/model/openapi-model.iml" filepath="$PROJECT_DIR$/../hangzhoubike/model/openapi-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/persistence/openapi-persistence.iml" filepath="$PROJECT_DIR$/../hangzhoubike/persistence/openapi-persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hangzhoubike/web/openapi-web.iml" filepath="$PROJECT_DIR$/../hangzhoubike/web/openapi-web.iml" />
+    </modules>
+  </component>
+</project>
+

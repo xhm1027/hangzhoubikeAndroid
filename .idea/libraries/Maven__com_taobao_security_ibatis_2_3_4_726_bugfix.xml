@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.taobao.security:ibatis:2.3.4.726.bugfix">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/ibatis/2.3.4.726.bugfix/ibatis-2.3.4.726.bugfix.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/ibatis/2.3.4.726.bugfix/ibatis-2.3.4.726.bugfix-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/taobao/security/ibatis/2.3.4.726.bugfix/ibatis-2.3.4.726.bugfix-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
